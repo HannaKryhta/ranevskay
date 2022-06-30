@@ -1,0 +1,73 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+}
+img{
+    margin-left: 20px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    display: flex;
+   
+
+}
+.text{
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid black;
+}
+.button{
+   display: flex;
+   margin: 20px;
+}
+#btn{
+    margin-top: 20px;
+   width: 100%;
+   padding: 10px;
+   font-size: 15px;
+   border: 2px solid black;
+   font-family: 'Montserrat', sans-serif;
+   color: black;
+
+}
+.quotes{
+    display: flex;
+    margin: 20px;
+ }
+#par{
+    display: none;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 2px solid black;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center; 
+    color: black;
+}
+
+@media all and (max-width:500px){
+    img{
+        width: 300px;
+        
+    }
+    h1{
+        text-align: center;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    #par{
+        color: black;
+    }
+}
+
+
+

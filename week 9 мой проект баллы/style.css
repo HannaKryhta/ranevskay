@@ -1,0 +1,51 @@
+.header, .image-container, .btn {
+    display: flex;
+    justify-content: center;
+}
+
+h1,h2{
+    background-image: url(https://media0.giphy.com/media/xT39CTrFW4nHLdBPpu/200w.webp?cid=ecf05e47bsxxqbo8u8m0lkqicm8gjhgf77dd77vc12srs9jn&rid=200w.webp&ct=g);
+    background-size: cover;
+    color: transparent;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 30px;    
+    text-align: center;
+  }
+  button{
+      background-color: #11468F;
+      padding: 20px;
+      font-size: 20px;
+      color: bisque;
+  }
+  body{
+      background-image: url('https://img.freepik.com/free-vector/abstract-blue-geometric-shapes-background_1035-17545.jpg?size=626&ext=jpg&ga=GA1.1.219168933.1649312378');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: #6FB2D2;
+      min-height: 100vh;
+  }
+  
+  @media all and (max-width: 500px) {
+    #myImage{
+        width: 400px;
+    }
+
+    h1, h2{
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 390px) {
+    #myImage{
+        width: 350px;
+    }
+
+    h1, h2{
+        text-align: center;
+            }
+
+    button{
+        font-size: 15px;
+            }
+}
